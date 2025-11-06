@@ -28,17 +28,26 @@ Designed to deliver a sleek, premium fintech-like experience. ✨
 
 ## 🏗️ **Project Structure**
 ```
-src/
+project-root/
 │
 ├── components/
-│ ├── CurrencyConvertor.jsx # Main currency converter logic
-│ ├── Dropdown.jsx # Dropdown component with favorites
-│ ├── Footer.jsx # Glassy footer component
+│   ├── CurrencyConvertor.jsx     # Main currency converter logic + UI
+│   ├── Dropdown.jsx              # Glassmorphic dropdown with favourites
+│   └── Footer.jsx                # Animated footer component
 │
-├── App.jsx # Root component
-├── index.css # Tailwind + base styling
-└── main.jsx # React DOM render entry point
----
+├── src/
+│   ├── App.jsx                   # Root app integrating components
+│   ├── main.jsx                  # React entry point (createRoot)
+│   └── index.css                 # Tailwind base + global styles
+│                          
+├── index.html                    # HTML template file
+│                    
+│
+├── tailwind.config.js            # Tailwind configuration
+├── package.json                  # Project metadata and dependencies
+└── README.md                     # Documentation file
+
+
 ```
 
 ## ⚙️ **Setup & Installation**
