@@ -22,7 +22,8 @@ Designed to deliver a sleek, premium fintech-like experience. ✨
 - ⚛️ **React.js** — component-based frontend framework  
 - 🎨 **TailwindCSS** — for elegant, responsive styling  
 - 🌐 **Frankfurter API** — for fetching live exchange rates  
-- 🧊 **React Icons** — for modern iconography  
+- 🧊 **React Icons** — for modern iconography
+- ☁️ **Vercel** — for deployment and CI/CD hosting  
 
 ---
 
